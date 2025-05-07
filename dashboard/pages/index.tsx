@@ -19,6 +19,7 @@ export default function DashboardPage() {
           defer
           src="https://unpkg.com/@tinybirdco/flock.js"
           data-token={config.trackerToken}
+          data-host={config.host}
         />
       )}
       <Meta />
